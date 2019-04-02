@@ -1,0 +1,207 @@
+@import "fonts"
+@import "base"
+@import "vars"
+
+.header 
+	margin: 10px
+	-webkit-box-pack: center
+	-ms-flex-pack: center
+	justify-content: center
+	justify-content: center
+	-webkit-box-orient: horizontal
+	-webkit-box-direction: normal
+	-ms-flex-direction: row
+	flex-direction: row
+	.header-logo__img
+		position: relative
+
+.header-text
+	&__title
+		font-size: 16pt
+	&__text 
+		font-size: 14pt
+		color: $grey_text
+
+.header-services
+	background-color: #fffbc8
+	display: inline-block
+	border: 1px solid $grey
+	border-radius: 10px
+	margin-left: -50px
+	&__text 
+		margin: 10px 10px 10px 42px
+
+.services__title
+	text-align: right
+
+.services__item
+	-webkit-box-orient: vertical
+	-webkit-box-direction: normal
+	-ms-flex-direction: column
+	flex-direction: column
+	margin-left: auto
+	max-width: 380px
+	border-top: 1px solid $grey
+	padding: 15px 0 15px
+
+.services__item div 
+	font-size: 13pt
+	margin: 5px
+	&:nth-child(1)
+		background-color: #b1e19b
+		border-radius: 2px
+		width: 218px
+	&:nth-child(3)
+		background-color: #ace2f8
+		border-radius: 2px
+		width: 65px
+		p
+			width: 200px
+	&:nth-child(5)
+		background-color: #ace2f8
+		border-radius: 2px
+		width: 40px
+
+.services__number
+	-webkit-align-self: flex-end
+	align-self: flex-end
+	margin-top: -25px
+
+.services__line
+	border-bottom: solid 1px $grey
+
+.services__text h2
+	font-size: 16pt
+.services__number h2
+	margin-top: -10px
+	font-size: 16pt
+
+.comment__reviews
+	-webkit-box-pack: justify
+	-ms-flex-pack: justify
+	justify-content: space-between
+	-webkit-box-orient: horizontal
+	-webkit-box-direction: normal
+	-ms-flex-direction: row
+	flex-direction: row
+	
+.comment__title
+	font-size: 16pt
+	font-weight: bold
+
+.comment__link
+	flex-grow: 1
+	color: #005da1
+	margin-left: 10px
+.comment__img
+	margin-left: 15px
+	color: blue
+	img
+		color: blue
+.comment__number
+	font-size: 12pt
+  
+.comment__text
+	display: inline-block
+
+.comment__name-user
+	font-size: 14pt
+	font-weight: bold
+
+.comment__date
+	font-size: 11pt
+	color: $grey_text
+
+
+.comment__text
+	margin-top: 20px
+
+.comment__block
+	margin: 0 auto
+	background: #999
+	background: #f2fbff
+	border: 2px solid rgba(0, 0, 0, 0.2)
+	padding: 20px
+	width: 90%
+	position: relative
+
+.comment__triangle-grey
+	border-bottom: 28px solid $grey
+	border-right: 20px solid transparent
+	width: 2px
+	margin: 0px 0px -35px 40px
+
+.comment__triangle-blue
+	border-bottom: 24px solid #f2fbff
+	border-right: 20px solid transparent
+	width: 2px
+	margin: 14px 0px -5px 42px
+	z-index: 999
+	position: relative
+
+#box_generate
+	background: #999
+	background: #f2fbff
+	border: 2px solid rgba(0, 0, 0, 0.2)
+	padding: 20px
+	width: 90%
+	position: relative	
+
+.add-coments
+	background-color: #f2f2f2
+	height: 210px
+
+.add-coments__block
+	margin-top: 30px
+	text-align: center
+
+.form__for-comments
+	text-align: center
+
+.add-coments__input-text
+	width: 95%
+	height: 65px
+	margin-top: 28px
+
+.add-comment__button 
+	text-align: center
+	color: black
+	padding: .5em 4em
+	outline: none
+	border-radius: 30px
+	background: #fdd639
+	height: 50px
+	width: 60%
+	cursor: pointer
+	border: 0 none
+	margin-top: 20px
+
+.add-coments__input-text
+	&[type="text"] 
+		font-size: 13pt
+		color: #6C6C6C
+		font-family: Arial, italic
+		padding: 5px
+	
+.text-button
+	font-family: PT Sans
+	font-weight: bold
+	font-size: 16pt
+	padding: 10px
+	
+
+
+
+@media only screen and (max-width : 470px)
+	.header-text
+		&__title
+			font-size: 14pt
+		&__text 
+			font-size: 13pt
+	.header-services
+		&__text 
+			font-size: 12pt
+			margin: 10px 1px 10px 40px
+	.text-button
+		font-size: 12pt
+

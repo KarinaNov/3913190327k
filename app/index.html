@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+	<div class="page">
+		<header class="header">
+			<div class="display-flex">
+			<div class="header-logo">
+				<img class ="header-logo__img" src="img/logo.png">
+			</div>
+			<div class="header-text">
+				<h1 class="header-text__title">Вероника Ростова</h1>
+				<p class="header-text__text">Менеджер по продажам</p>
+				<div class="header-services">
+					<p class="header-services__text">Подберу для вас самые лучшие предложения.
+					</br>Мои услуги абсолютно бесплатны.</p> 
+				</div>
+			</div>
+			</div>
+		</header>	
+
+	<section class="services">
+		<p class="services__title">Услуг</p>
+	
+			<div class="services__item  display-flex">
+				<div class="services__text">
+					<p>Ручное бронирование</p>
+				</div>
+	 		<span class="services__number"> 11 </span>
+
+			<div class="services__text">
+				<p>Пакетные туры</p>
+			</div>
+			<span class="services__number"> 3 </span>
+
+			<div class="services__text">
+				<p>Отели</p>
+			</div>
+			<span class="services__number"> 1 </span>
+
+			<div class="services__line"></div>
+
+			<div class="services__text">
+				<h2>Всего</h2>
+			</div>
+			<span class="services__number">
+				<h2>15</h2> 
+			</span>
+		</div>
+
+	</section>
+
+	<section class="comment">
+		<div class="comment__reviews display-flex">
+			
+			<span class="comment__title ">Последние отзывы</span>
+			<a class="comment__link" href="#">Все отзывы</a>
+	
+			<div class="comment__img">
+				<img src="img/com.svg">
+			</div> 
+				<p class="comment__number">131</p>
+			<div class="comment__img">
+				<img src="img/like.svg">
+			</div>	
+				<p class="comment__number">14</p>
+		</div>
+	
+
+		<div class="comment__text">
+			<span class="comment__name-user">Самуил</span>
+			<span class="comment__date">13 октября 2011</span>
+		</div>
+		<div class="comment__triangle-grey"></div>
+		<div class="comment__triangle-blue"></div>
+		<div class="comment__block">
+  			<p class="comment__string"> Привет, Верунь! ниче себе ты крутая. фотка класс!!!!</p>
+		</div>
+
+		<div class="comment__text">
+			<span class="comment__name-user">Лилия Семёновна</span>
+			<span class="comment__date">14 октября 2011</span>
+		</div>
+		<div class="comment__triangle-grey"></div>
+		<div class="comment__triangle-blue"></div>
+		<div class="comment__block">
+  			<p class="comment__string"> Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно страбилизирует кинетический момент, это и есть всемирно известный центр огранкиалмазов и торговли блиллиантами?</p>
+		</div>
+
+		<div class="comment__text">
+			<span class="comment__name-user">Лилия Семёновна</span>
+			<span class="comment__date">14 октября 2011</span>
+		</div>
+		<div class="comment__triangle-grey"></div>
+		<div class="comment__triangle-blue"></div>
+		<div class="comment__block">
+  			<p class="comment__string"> Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно страбилизирует кинетический момент?</p>
+		</div>
+
+		<div id = "out_text" class="name__user"></div>
+	</section>
+
+	<section class="add-coments">
+		<div class="add-coments__block">
+	    	<input id="input_text" class="add-coments__input-text" type ="text" name="input__comment" onkeyup="check();" />
+	    	<input type="submit" value="Написать консультанту" id="add-comment__button" class="add-comment__button text-button" disabled="disabled"/>
+		</div>
+	</section>
+
+</div>
+</div>
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>
